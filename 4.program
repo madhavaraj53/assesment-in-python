@@ -1,0 +1,15 @@
+def printword(a) :
+    i = 0
+    while( i < len(a) - 1) :
+        count = 1
+        while s[i] == a[i + 1] :
+            i += 1
+            count += 1
+            if i + 1 == len(a):
+                break
+        print(str(s[i]) + str(count),end = " ")
+        i += 1
+    print()
+if _name_ == "_main_" :
+    s=input("Enter the text")
+    printword(a)
