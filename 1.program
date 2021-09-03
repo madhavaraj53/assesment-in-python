@@ -1,0 +1,5 @@
+rounds=int(input())
+pi=3.14
+d=7 
+total_distance=d*pi*rounds
+print(total_distance,end=" Km travelled")
