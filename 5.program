@@ -1,0 +1,14 @@
+def compare(name1,name2):
+    result=""
+    for i in range(len(name1)):
+        if name1[i] in name2:
+            continue
+        else:
+            result=result+name1[i]
+    return result
+
+first=input()
+second=input()
+res1=compare(1st,2nd)
+res2=compare(2nd,1st)
+print(res1+res2)
