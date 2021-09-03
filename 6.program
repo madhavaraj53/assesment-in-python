@@ -1,0 +1,13 @@
+import random
+days=["Mon","Tues","Wed","Thurs","Fri"]
+hr=["1","2","3","4","5"]
+subject=["Py","Eng","Mat","Chem","Phy"]
+print("\t\t"+hr[0]+"\t\t"+hr[1]+"\t\t"+hr[2]+"\t\t"+hr[3]+"\t\t"+hr[4])
+for i in range(0,5):
+    print(days[i],end="    \t")
+    print(subject[random.randrange(0,5)],end="\t    ")
+    print(subject[random.randrange(0,5)],end="\t    ")
+    print(subject[random.randrange(0,5)],end="\t    ")
+    print(subject[random.randrange(0,5)],end="\t    ")
+    print(subject[random.randrange(0,5)],end="\t    ")
+    print()
